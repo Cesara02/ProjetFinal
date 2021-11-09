@@ -1,0 +1,218 @@
+/* Partie commune */
+
+body {
+    background-color: white;
+    font-family: "arial";
+    margin: 0;
+}
+
+div.scrollmenu {
+    background-color: #2B4C9B;
+    text-align: center;
+  }
+  
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+  
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+div#footer {
+    background-color:#2B4C9B;
+    height: 90px;
+    text-align: center;
+    margin-top: 200px;
+    padding: 5px;
+}
+
+table {
+    float: right;
+    border: 1px solid white;
+    background-color: #333;
+    color: white;
+}
+
+th {
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+td {
+    border: 1px solid white;
+    color: white;
+}
+
+/* Page Accueil */
+
+div#enteteAccueil {
+    background-color:#333;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+div#tendance {
+    text-align: center;
+}
+
+div.nomTendance1 {
+    float: left;
+    color: black;
+    text-align: left;
+    margin-left: 215px;
+    height: 150px;
+    width: 350px;
+}
+
+div.nomTendance2 {
+    float: left;
+    color: black;
+    text-align: left;
+    height: 150px;
+    margin-left: 40px;
+    width: 350px;
+}
+
+div.nomTendance3 {
+    float: left;
+    color: black;
+    text-align: left;
+    height: 150px;
+    margin-left: 40px;
+    width: 350px;
+}
+
+div.nomTendance4 {
+    float: left;
+    color: black;
+    text-align: left;
+    height: 200px;
+    margin-left: 40px;
+    width: 350px;
+}
+
+div#nouveautes {
+    margin-top: 60px;
+    text-align: center;
+}
+
+div#dernieresVentes {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* Page Collection */
+
+div#musicP2 {
+    text-align: center;
+}
+
+/* Page Nouveautés*/
+
+/* Page Bestsellers*/
+
+/* Page Promos*/
+
+/* Page Media */
+
+div#videoMedia {
+    text-align: center;
+    margin-top: 30px;
+}
+
+div.Video1 {
+    margin-bottom: 30px;
+}
+
+div.Video2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Page CV */
+
+div#swap {
+    margin-left: 1850px;
+}
+
+div#CV {
+    margin-top: 50px;
+    margin-left: 510px;
+}
+
+div#menuCV {
+    float:left;
+    width:380px;
+    height:880px;
+    background-color: white;
+    border-right: 1px solid grey;
+}
+
+div.menuhautCV {
+    height:350px;
+    background-color: white;
+    text-align: center;
+    font-size: 300%;
+    border-bottom: 1px solid grey;
+}
+
+div.menubasCV {
+    height:580px;
+    background-color: white;
+    text-align: left;
+    padding-left:15px;
+}
+
+div#contenuCV {
+    float: left;
+    width:460px;
+    height:900px;
+    padding-left:30px;
+    padding-top:30px;
+}
+
+img.imageCV {
+    height: 220px;
+    width: 250px;
+    padding-top: 10px;
+}
+
+div#footerCV {
+    background-color:#2B4C9B;
+    text-align: center;
+    margin-top: 1000px;
+    padding: 5px;
+}
+
+/* Page Contact */
+
+div#formulaire {
+    width: 600px;
+    height: 435px;
+    margin-left: 640px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+  
+input[type=submit], [type=reset] {
+    background-color: #2B4C9B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+}
+
+
+
